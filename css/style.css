@@ -1,3 +1,12 @@
+/* --- Fonts --- */
+
+/* --- Components design --- */
+@import url(components/container.css);
+@import url(components/card.css);
+@import url(components/avatar.css);
+@import url(components/button.css);
+
+/* --- Fonts and colors --- */
 body {
   background: #F4F4F4;
   color: #575F7D;
@@ -22,32 +31,6 @@ p {
 h2 {
   color: black;
   font-size: 25px;
-}
-
-.container {
-  width: 700px;
-  margin: 40px auto;
-}
-
-.card {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.img-circle {
-  border: 1px solid black;
-  border-radius: 50%;
-}
-
-.btn-red {
-  background-color: red;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
 }
 
 .list-inline { 

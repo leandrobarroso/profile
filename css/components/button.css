@@ -4,6 +4,9 @@
   border-radius: 4px;
   background: #FF0000;
   transition: background 0.3s ease;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .btn-flat:hover {

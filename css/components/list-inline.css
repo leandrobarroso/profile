@@ -1,0 +1,39 @@
+.list-inline {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+}
+
+.list-inline li {
+  max-width: 75px;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-inline i {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+.list-inline p {
+  text-align: center;
+}
+
+.skill {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+}

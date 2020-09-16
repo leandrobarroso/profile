@@ -5,13 +5,15 @@
 @import url(components/card.css);
 @import url(components/avatar.css);
 @import url(components/button.css);
+@import url(components/list-inline.css);
 
 /* --- Fonts and colors --- */
 body {
-  background: #F4F4F4;
-  color: #575F7D;
+  background: #494949;
+  color: #f4f4f4;
   font-size: 17px;
   font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1, h2, h3, a {
@@ -31,43 +33,16 @@ h2 {
   font-size: 25px;
 }
 
-.list-inline {
-  max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0px;
-  justify-content: center;
-}
 
-.list-inline li {
-  max-width: 75px;
-  margin: 1em;
-  display: flex;
-  flex-direction: column;
-}
-
-.list-inline i {
-  text-align: center;
-  align-items: center;
-  font-size: 50px;
-  color: rgb(230, 230, 230);
-}
-
-.list-inline i:hover {
-  color: black;
-}
-
-.list-inline p {
-  text-align: center;
-}
 
 #profile-header {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
 }
 
 #profile-titles {
-  margin: 0 2em;
+  margin: 1em 2em;
 }
 
 
